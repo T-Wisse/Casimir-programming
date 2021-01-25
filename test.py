@@ -1,10 +1,10 @@
 print("hello world")
 import math
-
+import numpy as np
 def circumference_circle(r):
-	return math.pi*r*2
+	return np.pi*r*2
 
 def area_circle(r):
-	return math.pi*r**2
+	return np.pi*r**2
 
 
