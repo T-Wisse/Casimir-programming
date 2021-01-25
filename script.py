@@ -1,7 +1,9 @@
-from test import circumference_circle
+# import test.py as test
+from test import area_circle
 
+r = 2
+>>>>>>> 1fade391d37bff9954908dfc9898ae51183290f8
 
-r = 3 #radius of circle
-c = circumference_circle(r)
+# c = test.circumference_circle(r)
 
-print(c)
+print(area_circle(r))
