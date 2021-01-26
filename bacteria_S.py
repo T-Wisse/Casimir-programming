@@ -21,3 +21,5 @@ import skimage.viewer
 image = skimage.io.imread('results_L3.jpg')
 viewer = skimage.viewer.ImageViewer(image)
 #viewer.show()
+
+
