@@ -28,4 +28,4 @@ sel = np.zeros_like(image)
 sel[mask] = image[mask]
 
 # save the result
-img.save('sel.png')
+img.save('mask.png')
