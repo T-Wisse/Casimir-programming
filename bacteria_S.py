@@ -71,7 +71,7 @@ t = 0.4
 image = skimage.io.imread(fname=filename, as_gray=True)
 
 # blur and grayscale before thresholding
-#blur = skimage.color.rgb2gray(image)
+blur = skimage.color.rgb2gray(image)
 blur = skimage.filters.gaussian(blur, sigma)
 
 # perform inverse binary thresholding
