@@ -49,4 +49,6 @@ plt.xlabel("value")
 plt.ylabel("pixel count")
 plt.show()
 
-print(np.count_nonzero (histogram > 100),"%", "filled by bacteria colonies")
+total = np.sum (histogram)
+bacteria = sum(histogram[i] for i in range (100,256))
+print("{:.2f}".format((bacteria/total)*100),"%", "filled by bacteria colonies")
